@@ -30,8 +30,8 @@ void memoryTest2(size_t memSize) {
     }
 }
 
-// copied from the previous example
-int division(int a, int b) {
+// copied from the previous example and adjusted data types
+size_t division(size_t a, int b) {
     if(b==0) {
         throw std::runtime_error("Division by zero");
     }
