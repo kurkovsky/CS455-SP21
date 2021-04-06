@@ -4,7 +4,7 @@
 #include <string>
 using namespace std;
 
-// this function verifies whether the candidate passwords meets various policy requirements
+// this function verifies whether the candidate passwords meets various policy requirements 
 // and determines whether it is strong/moderate/weak
 void checkPassword(string& input) {
     int pwdLength = input.length();
